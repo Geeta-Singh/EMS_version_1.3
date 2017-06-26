@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+
+        <item
+        android:id="@+id/nav_main"
+        android:icon="@drawable/googl"
+        android:title="Analyzers Across India" />
+    </group>
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_device"
+            android:icon="@drawable/details"
+            android:title="Device Details" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/chartpie"
+            android:title="Device/Data Condition" />
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/chartbar"
+            android:title="Latest Data  " />
+        <item
+            android:id="@+id/nav_5"
+            android:icon="@drawable/chartbar"
+            android:title="Historical Data  "
+            android:theme="@style/MyButton"/>
+
+        <item
+            android:id="@+id/nav_6"
+            android:icon="@drawable/chartbar"
+            android:title="Average Data  " />
+
+        <item
+            android:id="@+id/nav_7"
+            android:icon="@drawable/database"
+            android:title=" Data exceedance report" /><!--DATA EXCEEDENCE REPORT-->
+        <item
+            android:id="@+id/nav_8"
+            android:icon="@drawable/desktopmac"
+            android:title="Analyzer status report " />
+
+       <!-- <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_person_pin_black_24dp"
+            android:title="About App" />-->
+        <!--ANALYSER STATUS REPORT-->
+
+       <!-- <item
+
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />-->
+
+
+    </group>
+
+
+   <!-- <item android:title="Communicate">
+        <menu>Mapped Devices
+            <item
+
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            &lt;!&ndash;<item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />&ndash;&gt;
+        </menu>
+    </item>
+-->
+</menu>

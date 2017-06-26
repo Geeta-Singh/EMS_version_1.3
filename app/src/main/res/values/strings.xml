@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">EMISSION MONITORING SYSTEM</string>
+    <string name="title_activity_home_page">HomePage</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <!-- Nav Drawer Menu Items -->
+
+    <string name="title_activity_navigationdrawer">EMISSION MONITORING SYSTEM</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_maps_activity_3">Map</string>
+
+
+</resources>

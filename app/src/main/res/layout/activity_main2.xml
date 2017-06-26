@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <TextView android:id="@+id/textView1" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" android:text="Enter you name and hit PRINT"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <EditText android:id="@+id/preparedBy" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1" android:ems="10"
+        android:inputType="textPersonName">
+
+        <requestFocus />
+    </EditText>
+
+    <Button android:id="@+id/printPDF" android:layout_width="wrap_content"
+        android:layout_height="wrap_content" android:layout_alignRight="@+id/preparedBy"
+        android:layout_below="@+id/preparedBy" android:layout_marginTop="10dp"
+        android:text="Print PDF" android:onClick="printPDF" />
+
+</RelativeLayout>
+
